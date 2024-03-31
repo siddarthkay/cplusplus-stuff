@@ -10,10 +10,20 @@
 using namespace std;
 using namespace customMath;
 
+struct person{
+    string name;
+    int age;
+    string location;
+};
+
 int main() {
     vector<int> numbersToAdd;
     vector<string> messageToDisplay;
     map<string,string> someRandomMap;
+
+    person sid = person{
+        "sid", 99, "Earth"
+    };
 
     numbersToAdd.push_back(2);
     numbersToAdd.push_back(4);
@@ -27,7 +37,9 @@ int main() {
 
     cout << sum(numbersToAdd[0],numbersToAdd[1]) << "\n";
 
-    cout << someRandomMap["message"];
+    cout << someRandomMap["message"] << "\n";
+
+    cout << "person's name is -> " << sid.name << " person's age is ->" << sid.age << " person's location is " << sid.location << "\n";
 
     return 0;
 }
