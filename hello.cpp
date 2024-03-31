@@ -4,8 +4,11 @@
 #include <iostream>
 #include "sum.h"
 
+using namespace std;
+using namespace customMath;
+
 int main() {
-    std::cout << "Hello World!" << "\n";
-    std::cout << customMath::sum(2,4);
+    cout << "Hello World!" << "\n";
+    cout << sum(2,4);
     return 0;
 }
