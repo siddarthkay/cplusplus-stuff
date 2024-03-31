@@ -1,8 +1,12 @@
 //
 // Created by Siddarth Kumar on 31/03/24.
 //
+#include <iostream>
+
+using namespace std;
+
 namespace customMath {
-    int sum(int a, int b) {
-        return a + b;
+    void sum(int a, int b) {
+        cout << a + b << endl;
     }
 }

@@ -4,6 +4,4 @@
 
 #pragma once
 
-namespace customMath {
-    void sum(int a, int b);
-}
+void structsExample();

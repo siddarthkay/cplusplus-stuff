@@ -4,6 +4,7 @@
 
 #pragma once
 
-namespace customMath {
-    void sum(int a, int b);
-}
+#include <string>
+
+void greet(std::string a);
+

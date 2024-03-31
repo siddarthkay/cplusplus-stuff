@@ -8,4 +8,11 @@ include_directories(.)
 add_executable(cplusplus_stuff
         hello.cpp
         sum.cpp
-        sum.h)
+        sum.h
+        hello.h
+        main.cpp
+        vectors.cpp
+        maps.cpp
+        maps.h
+        structs.cpp
+        structs.h)
