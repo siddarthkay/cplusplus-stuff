@@ -4,4 +4,6 @@
 
 #pragma once
 
-int sum(int a, int b);
+namespace customMath {
+    int sum(int a, int b);
+}
